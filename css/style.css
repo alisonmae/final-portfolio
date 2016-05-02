@@ -1,0 +1,20 @@
+.css-typing {
+  width: 65em;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: type 15s steps(60, end);
+  animation: type 15s steps(60, end);
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@-webkit-keyframes type{
+  from { width: 0; }
+}
+}
+
+body {
+  text-align: center;
+}
