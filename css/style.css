@@ -1,80 +1,49 @@
+@font-face {
+  font-family: '';
+  src: url();
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: #000000;
+  color: white;
+}
+
 body {
   text-align: center;
+  margin: 0 0 100px;
 }
 
-
-
-
-.css-typing {
-  width: 65em;
-  white-space:nowrap;
-  overflow:hidden;
-  -webkit-animation: type 15s steps(60, end);
-  animation: type 15s steps(60, end);
+h1 {
+  font-size: 200px;
+  padding-top: 150px;
+  font-family: 'Cinzel', serif;
 }
 
-@keyframes type{
-  from { width: 0; }
+h2, h3 {
+font-size: 15px;
 }
 
-@-webkit-keyframes type{
-  from { width: 0; }
-}
+li {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.circle {
-	position: absolute; 
-	width: 200px;
-	height: 200px;
-	background: #dedede;
-	border-radius: 9999px;
-	-webkit-transition: all 500ms cubic-bezier(0.600, 0, 0.735, 0.045); /* older webkit */
-	-webkit-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	-moz-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	-ms-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	-o-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */
+.motto {
+  margin: 0 0 auto;
+  padding-bottom: 50px;
+  text-decoration: none;
 }
-.circle:hover {
-	margin-left: -20px;
-	margin-top: -20px;
-	width: 240px;
-	height: 240px;
-}
-.circle:hover p {
-	line-height: 195px;
-	font-size: 24px;
-}
-.circle p {
-	text-align: center;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'Exo', sans-serif;
-	font-size: 18px;
-	line-height: 165px;
-	letter-spacing: 2px;
-	-webkit-transition: all 500ms cubic-bezier(0.600, 0, 0.735, 0.045); /* older webkit */
-	-webkit-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	-moz-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	-ms-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	-o-transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
-	transition: all 500ms cubic-bezier(0.600, -0.280, 0.735, 0.045); /* easeInBack */
-}
-.one {
-	background: #d1e6e8;
-}
-.one:hover {
-	background: #a7c0c3;
-}
-.two {
-	background: #e8d1e5;
-}
-.two:hover {
-	background: #cfacca;
-}
-.three {
-	background: #e3eed9;
-}
-.three:hover {
-	background: #bccfac;
+
+footer {
+  background-color: grey;
+  color: white;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
 }
