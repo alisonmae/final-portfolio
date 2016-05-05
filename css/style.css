@@ -7,7 +7,7 @@
 html {
   position: relative;
   min-height: 100%;
-  background-color: #000000;
+  background-color: #FFC21F;
   color: white;
 }
 
@@ -19,7 +19,16 @@ body {
 h1 {
   font-size: 200px;
   padding-top: 150px;
-  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+}
+
+h1:hover + .motto {
+  display: block;
+}
+
+.motto {
+  background-color: white;
+  padding: 10px;
 }
 
 h2, h3 {
@@ -32,14 +41,14 @@ li {
   text-decoration: none;
 }
 
-.motto {
+.menu {
   margin: 0 0 auto;
   padding-bottom: 50px;
   text-decoration: none;
 }
 
 footer {
-  background-color: grey;
+  background-color: #ED145B;
   color: white;
   height: 100px;
   width: 100%;

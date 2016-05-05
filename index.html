@@ -2,66 +2,209 @@
 <html>
 <head>
   <meta charset="utf-8">
+    <script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
   <title>Alison Mae</title>
+
     <link rel="stylesheet" href="animate.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body id="home">
 
-<div class="logo">
-  <h1>Alison Mae</h1>
-</div>
+
+<!-- Header -->
+  <div id="header">
+    <div class="container">
+
+<!-- Logo -->
+  <div class="logo">
+      <h1><a href="#" id="logo">Alison Mae</a></h1>
+      <div class="motto">write, see, love</div>
+  </div>
 
 
-<ul class="motto">
-<a href="write.html"><li class="css-typing">write</li></a>
-<a href="http://www.alisonmae.com" target="_blank"><li class="see">see</li></a>
-<a href="#"><li class="love">love</li></a>
-</ul>
+        <!-- Nav -->
+  <nav id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="">write</a>
+        <ul>
+          <li><a href="#">short stories</a></li>
+          <li><a href="#">comedy</a></li>
+        </ul>
+    </ul>
 
 
-<!-- <div class="portfolios">
-  <div class="outer">
-    <div class="circle-one">
-      <p>photography</p>
-    </div>
-  </div>
-  <div class="outer">
-    <div class="circle-two">
-      <p>web development / design</p>
-    </div>
-  </div>
-  <div class="outer">
-    <div class="circle-three">
-      <p>writing</p>
-    </div>
-  </div>
-  <div class="outer">
-    <div class="circle-four">
-      <p>about me</p>
-    </div>
-  </div>
-  <div class="outer">
-    <div class="circle-five">
-      <p>blog</p>
-    </div>
-  </div>
-  <div class="outer">
-    <div class="circle-six">
-      <p>contact</p>
-    </div>
-  </div>
-</div> -->
+      <li><a href="">see</a></li>
+    <ul>
+      <li><a href="http://www.alisonmae.com" target="_blank">photo</a></li>
+      <li><a href="#">video</a></li>
+      <li><a href="#">design</a></li>
+    </ul>
+
+      <li><a href="#">about me</a></li>
+      <li><a href="no-sidebar.html">hey, ali mae!</a></li>
+
+    </nav>
 
 
+        <!-- Banner -->
+          <div id="banner">
+            <div class="container">
+              <section>
+                <header class="major">
+                  <h2>Alison Mae</h2>
+                  <h3>creative</h3>
+                  <span class="byline">I love helping people create and build things.</span>
+                </header>
+                <a href="#" class="button alt">Click me!</a>
+              </section>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  <!-- Featured -->
+    <div class="wrapper style2">
+      <section class="container">
+        <header class="major">
+          <h2>Who I Am</h2>
+          <span class="byline">Mauris vulputate dolor sit amet nibh</span>
+        </header>
+        <div class="row no-collapse-1">
+          <section class="4u">
+            <a href="#" class="image feature"><img src="images/pic02.jpg" alt=""></a>
+            <p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
+          </section>
+          <section class="4u">
+            <a href="#" class="image feature"><img src="images/pic03.jpg" alt=""></a>
+            <p>Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis. Donec magna.</p>
+          </section>
+          <section class="4u">
+            <a href="#" class="image feature"><img src="images/pic04.jpg" alt=""></a>
+            <p>Curabitur sem urna, consequat vel, suscipit convallis sem leo, mattis placerat, nulla. Sed ac leo.</p>
+          </section>
+
+        </div>
+      </section>
+    </div>
+
+  <!-- Main -->
+    <div id="main" class="wrapper style1">
+      <section class="container">
+        <header class="major">
+          <h2>Nulla luctus eleifend</h2>
+          <span class="byline">Mauris vulputate dolor sit amet nibh</span>
+        </header>
+        <div class="row">
+
+          <!-- Content -->
+            <div class="6u">
+              <section>
+                <ul class="style">
+                  <li>
+                    <span class="fa fa-wrench"></span>
+                    <h3>Integer ultrices</h3>
+                    <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
+                  </li>
+                  <li>
+                    <span class="fa fa-cloud"></span>
+                    <h3>Aliquam luctus</h3>
+                    <span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <div class="6u">
+              <section>
+                <ul class="style">
+                  <li>
+                    <span class="fa fa-cogs"></span>
+                    <h3>Integer ultrices</h3>
+                    <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
+                  </li>
+                  <li>
+                    <span class="fa fa-leaf"></span>
+                    <h3>Aliquam luctus</h3>
+                    <span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
+                  </li>
+                </ul>
+              </section>
+            </div>
+
+        </div>
+      </section>
+    </div>
+
+  <!-- Footer -->
+    <div id="footer">
+      <div class="container">
+
+        <!-- Lists -->
+          <div class="row">
+            <div class="8u">
+              <section>
+                <header class="major">
+                  <h2>Donec dictum metus</h2>
+                  <span class="byline">Quisque semper augue mattis wisi maecenas ligula</span>
+                </header>
+                <div class="row">
+                  <section class="6u">
+                    <ul class="default">
+                      <li><a href="#">Pellentesque elit non gravida blandit.</a></li>
+                      <li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
+                      <li><a href="#">Phasellus nibh pellentesque congue.</a></li>
+                      <li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+                    </ul>
+                  </section>
+                  <section class="6u">
+                    <ul class="default">
+                      <li><a href="#">Pellentesque elit non gravida blandit.</a></li>
+                      <li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
+                      <li><a href="#">Phasellus nibh pellentesque congue.</a></li>
+                      <li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </section>
+            </div>
+            <div class="4u">
+              <section>
+                <header class="major">
+                  <h2>Donec dictum metus</h2>
+                  <span class="byline">Mattis wisi maecenas ligula</span>
+                </header>
+                <ul class="contact">
+                  <li>
+                    <span class="address">location</span>
+                    <span>Austin, TX</span>
+                  </li>
+                  <li>
+                    <span class="mail">mail</span>
+                    <span><a href="#">alison@alisonmae.com</a></span>
+                  </li>
+                  <li>
+                    <span class="phone">phone</span>
+                    <span>512.739.7861</span>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
 
 <footer>
-<h2>Live slowly, breathe deeply, love deeper, and for goodness sake, take a picture.</h2>
-<h3> &#169 alisonmae.com 2009-2016. All Rights Reserved.
+<!-- Copyright -->
+  <div class="copyright">
+    <h2>Live slowly, breathe deeply, love deeper, and for goodness sake, take a picture.</h2>
+    <h3> &#169 alisonmae.com 2009-2016. All Rights Reserved.</h3>
+  </div>
 </footer>
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+
 </body>
 </html>
